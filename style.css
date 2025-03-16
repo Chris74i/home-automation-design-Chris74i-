@@ -2,13 +2,47 @@
 
 body {
     background-color: #c8c8c8;
+    padding-top: 10em;
 }
-h1{
+header {
     background-color: green;
     text-align: center;
-    font-size: 50px;
+    font-size: 16px;
     font-weight: bold;
+    border-radius: 15px;
+    border-style: solid;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    padding-bottom: 19px
 }
+
+/*     HOME,   SETTING  etc.    */
+ul{
+    background-color: #005100; 
+    color-scheme: light;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+#header-date{
+    font-weight: bolder;
+    background-color: rgb(55, 139, 165);
+    display: inline-block;
+    position: absolute;
+    left: 2px;
+    padding-right: 5px;
+    padding-left: 3px;
+    border-radius: 8px;
+}
+
+
+
 
 /*       THE ADVERTISEMENT       */
 #advertising {
@@ -19,20 +53,20 @@ h1{
     font-size: 20px;
     font-weight: bold;
     color: black;
+    border-style: solid;
+    border-radius: 5px;
 }
 
-/*     WEATHER INFO    */
-ul{
-    background-color: #333; 
-    margin: auto;
-    padding: 5px;
+
+/*   HOME WEATHER    */
+#weather-home{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    border: 10px green;
+    padding-left: 1em;
+    border-style: solid;
+    border-radius: 10px;
+
+    background-image: ;
 }
-
-container{
-    display: grid;
-    row-gap: 50px;
-
+#weather-city{
+    display: grid;;
 }
